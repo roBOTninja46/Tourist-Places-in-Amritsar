@@ -1,0 +1,251 @@
+*::selection{
+    background-color: rgb(255,191,0);
+    color: rgb(255, 235, 184);
+}
+
+.homepage{
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: rgb(255, 235, 184);
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+#back{
+    height: 550px;
+}
+
+#mainimg{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+#title{
+    text-shadow: 4px 3px 6px rgb(0, 0, 0);
+    font-size: 70px;
+    color: rgb(255,191,0);
+    position: relative;
+    top: 45%;
+    left: 25%;
+    white-space: nowrap;
+}
+
+.navigation_bar{
+    background-color: rgb(255,191,0);
+    list-style-type: none; 
+    margin: 1px 0px;
+    padding: 1px 0px;
+    display: flex;
+    justify-content: left;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+.buttons{
+    color: white;
+    padding: 5px 65px;
+    transition-property: background-color;
+    transition-duration: 500ms;
+    font-size: 27px;
+    margin: 4px 2px;
+    border-radius: 3px;
+}
+
+.buttons:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.top{
+    text-align: center;
+    color: rgb(255,191,0);
+    font-size: 60px;
+    padding: 20px 0px;
+    margin: 0px;
+}
+
+#im{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#img6{
+    height: 300px;
+}
+
+.card{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px;
+    height: 350px;
+    width: 450px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.card:hover{
+    height: 425px;
+}
+
+.card .content .details h2{
+    text-align: center;
+    color: rgb(255,191,0);
+    padding-bottom: 12px;
+    margin: 4px 0px 20px;
+    font-size: 40px;
+    border-bottom: 2px solid rgb(255,191,0);
+}
+
+.card .content .actionbtn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card .content .actionbtn button{
+    border: none;
+    border-radius: 4px;
+    padding: 6px;
+    font-size: 20px;
+    color: rgb(255, 235, 184);
+    background-color: rgb(255,191,0);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card .content .actionbtn button:hover{
+    background-color: rgb(255, 235, 184);
+    color: rgb(255,191,0);
+}
+
+.imgbox{
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.img23{
+    width: 450px;
+    height: auto;
+}
+
+footer{
+    background-color: rgb(255,191,0);
+    color: rgb(255, 235, 184);
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.footer_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer_content h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.footer_content p{
+    max-width: 60%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.footerbt{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0px;
+    text-transform: capitalize;
+}
+
+.footerbt span{
+    text-transform: uppercase;
+    opacity: 0.5;
+    color: white;
+    padding-left: 500px;
+}
+
+#basic{
+    border-right: 2px solid rgb(255, 235, 184);
+}
+
+#special{
+    margin: 20px;
+    font-size: 25px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+form{
+    background-color: white;
+    width: 35%;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 6px 6px 10px rgb(95, 95, 95);
+    margin-bottom: 50px;
+}
+
+.text{
+    color: rgb(255,191,0);
+    font-size: 30px;
+    margin: 0px;
+}
+.inputbx{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.inputbx:nth-child(4){
+    margin-top: 20px;
+}
+
+.inputbx input, .inputbx textarea{
+    width: 100% ;
+    border: none;
+    margin: 5px 0px 20px 0px;
+    border-bottom: 2px solid;
+    outline: none;
+    font-size: 23px;
+}
+
+.inputbx textarea{
+    resize: vertical;
+    min-height: 53px;
+}
+
+.inputbx input[type="submit"]{
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 35px;
+    font-weight: 600;
+    background-color: rgb(255,191,0);
+    color: white;
+    cursor: Pointer;
+}
